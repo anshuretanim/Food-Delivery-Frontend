@@ -28,6 +28,20 @@ body{
     display: inline-block;
     padding: 1.6rem 3.2rem;
     border-radius: 150px;
+    /* for animations, come to the original state */
+    transition: background-color 0.3s;
+}
+
+.eat-well:hover{
+    background-color: #8a4c14;
+    color: #cccccc;
+}
+
+.btn.learn--btn{
+    border: 2px solid #e67e22;
+    border-radius: 150px;
+    background-color: transparent;
+    color: #e67e22;
 }
 
 .hero{
@@ -58,5 +72,9 @@ body{
     color: #333;
     letter-spacing: -0.5px;
     margin-bottom: 3.2rem;
+}
+
+.margin--right{
+    margin-right: 1.6rem !important;
 }
 
